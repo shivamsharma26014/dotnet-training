@@ -23,11 +23,6 @@ Questions for assessment
 
     Answer : a
 
-
-
-
-
-
 3. What will be the output of the following C# code?
 
 class maths
@@ -75,7 +70,7 @@ constructor 1:
 d) none of the mentioned
 
 
-Answer-- C
+Answer: C
 
 
 
@@ -94,6 +89,59 @@ c) You need to call the ReleaseToPool() method after the connection is closed
 d) You need to explicitly close the connection with the Close() method
 
 
-Answer-- B
-    
+Answer: B
 
+3. Which of the following jobs are NOT performed by Garbage Collector?
+i) Freeing memory on the stack.
+ii) Avoiding memory leaks.
+iii) Freeing memory occupied by unreferenced objects.
+iv) Closing unclosed database collections.
+v) Closing unclosed files.
+A.	i, ii, iii
+B.	iii, v
+C.	i, iv, v
+D.	iii, iv
+
+Answer: C
+
+4. Which of the following statements is correct about Managed Code?
+
+A.	Managed code is the code that is compiled by the JIT compilers.
+B.	Managed code is the code where resources are Garbage Collected.
+C.	Managed code is the code that runs on top of Windows.
+D.	Managed code is the code that is written to target the services of the CLR.
+
+Answer: D
+
+    
+3. Garbage collection automatically reclaims memory occupied by unreachable unused objects." – This statement is true or false in C#?
+
+    a. True
+    b. False
+    
+    ANSWER. a
+
+4. Which of these is not a correct statement?
+    a. A recursive method must have a base case
+    b. Recursion always uses stack
+    c. Recursion is always managed by C# Runtime environment
+    d. Recursive methods are faster that programmer written loop to call the function repeatedly using a stack
+    
+    ANSWER. c
+
+5. Duck typing is implemented by using which of the following keyword 
+    a. dynamic
+    b. object
+    c. ref
+    d. base
+
+    Anser: a
+
+6. The point at which and exception is thrown is called
+    a. Default point
+    b. Invoking point
+    c. Calling point
+    d. Throw point
+        
+    Anser: d    
+ 
