@@ -23,7 +23,22 @@ Questions for assessment
 
     Answer : a
     
-3. Duck typing is implemented by using which of the following keyword 
+3. Garbage collection automatically reclaims memory occupied by unreachable unused objects." – This statement is true or false in C#?
+
+    a. True
+    b. False
+    
+    ANSWER. a
+
+4. Which of these is not a correct statement?
+    a. A recursive method must have a base case
+    b. Recursion always uses stack
+    c. Recursion is always managed by C# Runtime environment
+    d. Recursive methods are faster that programmer written loop to call the function repeatedly using a stack
+    
+    ANSWER. c
+
+5. Duck typing is implemented by using which of the following keyword 
     a. dynamic
     b. object
     c. ref
@@ -31,11 +46,11 @@ Questions for assessment
 
     Anser: a
 
-4. The point at which and exception is thrown is called
+6. The point at which and exception is thrown is called
     a. Default point
     b. Invoking point
     c. Calling point
     d. Throw point
         
     Anser: d    
-    
+ 
