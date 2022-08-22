@@ -143,5 +143,37 @@ Answer: D
     c. Calling point
     d. Throw point
         
-    Anser: d    
+    Anser: d   
  
+5. Assume 2 columns named as Product and Category how can be both sorted out based on first by category and then by product name?
+a) var sortedProds = _db.Products.Orderby(c => c.Category)
+b) var sortedProds = _db.Products.Orderby(c => c.Category) + ThenBy(n => n.Name)
+c) var sortedProds = _db.Products.Orderby(c => c.Category) . ThenBy(n => n.Name)
+d) all of the mentioned
+
+ Answer: c
+
+6.   What will be the output of the following C# code snippet?
+class Program
+ {
+     static void Main(string[] args)
+     {
+         int[] nums = { 1, -2, 3, 0, -4, 5};
+         var posNums = from n in nums
+                       where n >= 0
+                       select n;
+        foreach (int i in posNums) 
+        Console.Write(i + " ");
+        Console.WriteLine();
+        Console.ReadLine();
+    }
+}
+
+a) 0, 1, -2, -4, 5
+b) 1, 3, 0, 5
+c) 1, 3, 5
+d) Run time error
+
+ Answer: B
+
+    Anser: d
