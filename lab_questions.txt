@@ -22,5 +22,78 @@ Questions for assessment
     d. ba
 
     Answer : a
+
+
+
+
+
+
+3. What will be the output of the following C# code?
+
+class maths
+ {
+     public maths()
+     {
+         Console.WriteLine("constructor 1 :");
+     }
+     public maths(int x)
+     {
+         int p = 2;
+         int u;
+         u = p + x;
+         Console.WriteLine("constructor 2: " +u);
+     }
+ }
+ class Program
+ {
+     static void Main(string[] args)
+     {
+         maths k = new maths(4);
+         maths t = new maths();
+         Console.ReadLine();
+     }
+ }
+
+
+a)
+
+constructor 1:
+constructor 2: 6
+
+b)
+
+constructor 2: 6
+constructor 2: 6
+
+
+c)
+
+constructor 2: 6
+constructor 1:
+
+
+d) none of the mentioned
+
+
+Answer-- C
+
+
+
+
+4. Which are the two things you need to take care of in your ASP.Net application to take advantage of connection pooling.
+
+a) You need to set the Pooling property of the Connection object to True
+
+
+b) You need to use the same exact connection string whenever you open a database connection
+
+
+c) You need to call the ReleaseToPool() method after the connection is closed
+
+
+d) You need to explicitly close the connection with the Close() method
+
+
+Answer-- B
     
 
