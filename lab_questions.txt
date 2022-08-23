@@ -177,3 +177,51 @@ d) Run time error
  Answer: B
 
     Anser: d
+    
+    
+7. Which among the following is the correct statement: Constructors are used to?
+a) initialize the objects
+b) construct the data members
+c) initialize the objects & construct the data members
+d) none of the mentioned
+
+Answer. A
+
+2. Which of the following statements are correct about functions?
+a) C# allows a function to have arguments with default values
+b) Redefining a method parameter in the method’s body causes an exception
+c) C# allows function to have arguments with default values
+d) Omitting the return type in method definition results into exception
+
+Answer. A
+
+9. What will be the Correct statement in the following C# code?
+
+interface a1
+{
+    void f1();
+    int f2();
+}
+class a :a1
+{
+    void f1()
+    {
+    }
+    int a1.f2()
+    {
+    }
+}
+a) class a is an abstract class
+b) A method table would not be created for class a
+c) The definition of f1() in class a should be void a1.f1()
+d) None of the mentioned     
+
+answer : c
+
+7. When we call a constructor method among different given constructors. We match the suitable constructor by matching the name of constructor first, then the number and then the type of parameters to decide which constructor is to be overloaded. The process is also known as?
+a) Method overriding
+b) Inheritance
+c) Polymorphism
+d) Encapsulation
+
+ANSWER. C
